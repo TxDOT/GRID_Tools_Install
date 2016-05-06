@@ -19,10 +19,13 @@ To manually install files, pleaase use the following commands:
     the requirements file point to those locations.  The requirements command will only
     run once, because all dependencies are included.
 
-    In order to run the jpb_tables_backup.py procedure, Spatialite must be incorporated into Python.
+    In order to run the job_tables_backup.py procedure, Spatialite must be incorporated into Python.
         To do this, please navigate to your Python folder (C:\Python27\ArcGIS10.3 or c:\Python27\venv\grid_env)
             navigate to the Scripts folder, and copy the spatialite .dll files into the Scripts folder.
 
-*** I am creating batch files to automate this process.  They are completed, but will need
+*** I have created batch files to automate this process.  They are completed, but will need
     to be tested thoroughly for the various installations.
         the batch file install_venv.bat has been tested and works well if you already have pip and virtualenv installed.
+        grid_buddy will not be installed by default from the batch files.  In order to install it, please uncomment the two lines
+            ::pip install grid_buddy-0.1.1-py27-none-any.whl
+            ::xcopy /s "%ROOTDIR%spatialite\*.dll" "%ENVDIR%grid_env\Scripts\"
