@@ -1,0 +1,7 @@
+./pyDepend/cx_Oracle-5.2.1+oci12c-cp27-none-win32.whl
+./pyDepend/SQLAlchemy-1.0.12-cp27-cp27m-win32.whl
+./pyDepend/lxml-3.4.4-cp27-none-win32.whl
+./pyDepend/PyYAML-3.11-cp27-none-win32.whl
+./pyDepend/GDAL-1.11.4-cp27-none-win32.whl
+./pyDepend/pyproj-1.9.5-cp27-none-win32.whl
+./pyDepend/Flask-0.10.1-py2.py3-none-any.whl
